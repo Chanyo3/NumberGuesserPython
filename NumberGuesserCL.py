@@ -37,6 +37,7 @@ while running:
                 print("Input number only!")
         #Play start
         counter = 0
+        #Checker
         while counter <= tries:
             guessNumber = 0
             try:
@@ -57,6 +58,7 @@ while running:
             except:
                 print("Input number only!")
                 counter-=1
+        #let user play again
         while True:
             playAgain = input("Do you want to play again?(y/n)").lower()
             if(playAgain == "y"):
